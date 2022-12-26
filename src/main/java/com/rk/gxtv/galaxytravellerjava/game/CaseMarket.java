@@ -14,6 +14,6 @@ public class CaseMarket extends Case{
 
     @Override
     public String toString() {
-        return " $ ";
+        return "$";
     }
 }

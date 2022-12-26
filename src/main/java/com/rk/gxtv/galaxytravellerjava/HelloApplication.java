@@ -1,6 +1,6 @@
 package com.rk.gxtv.galaxytravellerjava;
 
-import com.rk.gxtv.galaxytravellerjava.game.Map;
+import com.rk.gxtv.galaxytravellerjava.game.MapSolo;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -20,8 +20,6 @@ public class HelloApplication extends Application {
 
     public static void main(String[] args) {
         //launch();
-        for (int i = 0; i < 5; i++) {
-            System.out.println(new Map(10, 2));
-        }
+        System.out.println(new MapSolo(10, 2, "V"));
     }
 }
